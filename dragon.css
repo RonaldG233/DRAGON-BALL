@@ -1,0 +1,52 @@
+body {
+font-family: "Open Sans", sans-serif;
+background-color: rgb(204, 204, 204);
+background-position: center;
+background-size: cover;
+box-sizing: border-box;
+padding: 20px;
+margin: 0;
+height: 100vh;
+background-attachment: fixed;
+}
+
+.bloque {
+text-align: center;
+}
+.caja {
+background-color: rgb(209, 207, 70);
+border-radius: 8px;
+box-shadow: 0 5px 10px rgba(0,0,0,0.5);
+width: 300px;
+margin: 10px;
+text-align: center;
+padding-bottom: 20px ;
+display: inline-block;
+}
+.caja img {
+width: 50%;
+object-fit: contain;
+height: 14rem;
+filter: drop-shadow(2px 4px 10px rgb(26,69,139)  );
+}
+div >p.titulo{
+margin: 30px 0;
+font-size: 30px;
+color: rgb(255, 4, 4);
+}
+.bloque p {
+color: black;
+padding: 0 25px 20px;
+font-size: 17px;
+text-align: center;
+
+}
+.boton{
+display: block;
+text-decoration: none;
+background: rgb(241, 2, 2);
+color: white;
+padding: 16px 20px;
+margin: 35px 70px;
+border-radius: 10px;
+}
